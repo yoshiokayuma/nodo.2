@@ -1,0 +1,148 @@
+doctype html
+html
+  head
+    title sample saite
+    link(href="./css/style.css", rel="stylesheet")
+
+  body
+    header#main_header
+      h1 LUUP  
+      nav
+        ul 
+          li TOP
+          li ABOUT
+          li HOW TO
+          li ボード設置場所マップ
+          li ニュース
+          li 設置場所
+          li 採用情報
+    main#main_visual 
+      h1 RIDE YOUR CITY
+        small  街じゅうが、スタート地点 
+      span Scroll
+
+    .about
+      h2  街じゅうが、スタート地点
+
+      .row
+        .col
+          img(src="images/about/ab1-min.png",width="200",height="200")
+          h3 電動キックボード /電動アシスト自転車を選べる※エリアによって異なる場合がありますので詳細はアプリをご確認ください
+        .col
+          img(src="images/about/ab2-min.png",width="200",height="200")
+          h3 ポートがたくさんあるから短距離移動にぴったり
+        .col
+          img(src="images/about/ab3-min.png",width="200",height="200")
+          h3 予約・決済もアプリひとつでラクラク基本料金50円 + 1分あたり15円（税込）※1分ごとに追加料金が発生します。ヘルプでご確認ください
+
+    .area  
+      h2  提供上リア拡大中！
+
+      p 展開エリアに高密度にボート設置!アプリをダウンロードして最寄りのボード（LUUP（LUUP専用駐車場）を検索してみましょう！
+
+      .col
+        .photo
+          img(src="images/area/tokyo/photo.jpg",width="650",height="350")
+          .textblock
+            p TOKYO
+            span [東京] 
+            button ポート設置場所を確認
+        .map
+          img(src="images/area/tokyo/map_pc.jpg",width="350",height="350")
+
+      .col#osaka 
+        .photo
+          img(src="images/area/osaka/photo.jpg",width="650",height="350")
+          .textblock
+            p OSAKA
+            span [大阪]
+            button ポート設置場所を確認
+        .map
+          img(src="images/area/osaka/map_pc.jpg",width="350",height="350")
+    .interview 
+     .photo 
+      img(src="images/interview/v1.jpg",width="300",height="300")
+      .textblock
+       h3 第1期LUUPアンバサダー｜伊藤夏美さん
+        p 電車に乗りたくない時や歩くのにはちょっと遠い距離で非常に便利でした。電動なので女性でも簡単に乗れます♪アプリの登録も非常に簡単なので、誰でも簡単に試せるのもいいなと思いました！今度もっとボートが増えるのを楽しみにしています◎
+     .photo
+      img(src="images/interview/v2.jpg",width="300",height="300")
+      .textblock
+       h3 第1期LUUPアンバサダー｜山下晃和さん
+        p LUUPは通勤や買い物にとても便利です。例えば、雨が降っている朝は電車で行き、帰りに雨が止んでいたらLUUPで帰るなど、自分の自転車を使うよりも柔軟な対応ができます。また、満員電車を避けることができるのもお気に入りのポイントです。
+
+    .app_info
+     .photo 
+      img(src="images/app_info/sl.png",width="150",height="250")
+      .textblock
+       h4 ダウンロードはこちら
+       img(src="images/app_info/ios.png",width="150",height="50")
+       img(src="images/app_info/android.png",width="175",height="50")
+       p AppleおよびAppleロゴは米国その他の国で登録されたApple Inc,の模様です。App StoreはApple Inc,のサービスマークです。Google Playおよび Google PlayロゴはGoogle LLCの模様です。
+
+    
+    .about_port
+      h5 ポート設置について
+      p 物件の空きスペースに、LUUPポートを設置しませんか？ちょっとした移動が楽になったり、デットスペースの収益化につながります。自販機２台分のスペースがあれば導入でき、設置費用・維持コストは一切かかりません。ぜひ下記お問い合わせフォームよりお気軽にご相談ください
+      .photo
+      .row
+        .col
+          img(src="images/about_port/port-owner-2.jpg",width="450",height="350")
+          p 入居者様やテナント様の移動手段としても好評です
+        .col
+          img(src="images/about_port/port-owner-1.jpg",width="450",height="350")
+          p 物件のわずかな空きスペースへの設置が可能です
+      .textblock
+       button ポート設置のご相談はこちら
+
+    .contact
+     .line-left
+      h6 お問い合わせ
+      p Contact
+     form
+      .col
+       label お名前　
+        small 必須
+       .from-input 
+        input
+      .col
+       label メールアドレス　
+        small 必須
+       .from-input 
+        input
+      .col
+       label 電話番号　
+        small 必須
+       .from-input 
+        input
+      .col
+       label お問い合わせ内容　
+        small 必須
+       .from-input 
+        textarea
+      .textblock
+       button 送信
+
+    footer
+     h2 LUUP
+      p &copy; 2022Luup.inc,
+     .col
+       ol 
+        li TOP 
+        li ボート設置場所マップ
+        li ボード設置のご相談
+     .col
+       ol 
+        li お問い合わせ
+        li プライバシーポリシー
+        li 利用規約
+     .col 
+       ol
+        li ヘルプセンター
+        li 企業情報
+        li 採用情報
+
+
+
+
+    script(src="./js/index.js")
